@@ -1,17 +1,14 @@
 #include <iostream>
-#include "mere.hpp"
-#include "fille.hpp"
+#include "Rectangle.hpp"
+#include "Cercle.hpp"
 #include <string>
 
 int main(int, char **)
 {
-    Mere * pm = new Mere("jeanne");
-    Fille * pf = new Fille("jeannette");
-    Mere * pp = new Fille("therese");
-
-    pm->afficher();
-    pf->afficher();
-    pp->afficher();
+    Rectangle r(1,1,1,1);
+    r.toString();
+    Cercle c;
+    std::cout << r.toString() << std::endl;
 
     return 0;
 }

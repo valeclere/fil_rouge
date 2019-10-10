@@ -1,7 +1,7 @@
 CC= g++
 CFLAGS=-Wall -Wextra
 
-OBJ= main.o mere.o
+OBJ= main.o Rectangle.o Cercle.o Liste.o
 
 EXEC=exec
 
