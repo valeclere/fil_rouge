@@ -1,6 +1,6 @@
 #include "Cercle.hpp"
 
-Cercle::Cercle(): x(0), y(0), w(0), h(0)
+Cercle::Cercle(): x(0), y(0), w(0), h(0), ordre(-1)
 {
     std::cout << "Creation Cercle" << std::endl;
 }

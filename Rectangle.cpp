@@ -1,6 +1,6 @@
 #include "Rectangle.hpp"
 
-Rectangle::Rectangle(): x(0), y(0), w(0), h(0)
+Rectangle::Rectangle(): x(0), y(0), w(0), h(0), ordre(-1)
 {
     std::cout << "Creation Rectangle" << std::endl;
 }
